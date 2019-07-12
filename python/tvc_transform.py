@@ -150,6 +150,7 @@ def create_first_dt_df(dau_df):
     # Add two new columns with the first_week and first_month of the first_dt
     first_dt['first_week'] = pd.to_datetime(first_dt['first_dt']).dt.to_period('W')
     first_dt['first_month'] = pd.to_datetime(first_dt['first_dt']).dt.to_period('M')
+    first_dt['first_month'] = pd.to_datetime(first_dt['first_dt']).dt.to_period('M')    
     
     return first_dt
 
