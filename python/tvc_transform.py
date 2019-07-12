@@ -39,6 +39,14 @@ def get_time_period_dict(time_period):
                                    'period_abbr' : 'M',
                                    'python_period' : 'months',
                                    'days' : 28
+                                  },                        
+                        'quarter' : {'grouping_col' : 'Quarter_Year',
+                                   'first_period_col' : 'first_quarter',
+                                   'frequency' : 'Quarterly',
+                                   'unit' : 'Quarter',
+                                   'period_abbr' : 'Q',
+                                   'python_period' : 'quarters',
+                                   'days' : 91
                                   }
                         }
                     
